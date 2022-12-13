@@ -1,5 +1,5 @@
 {
-  "readmeUrl": "https://raw.githubusercontent.com/cveinnt/cveinnt/master/README.md",
+  "readmeUrl": "https://github.com/xefonon/xenofon_karakonstantis/blob/main/README.md",
   "title": "Xenofon Karakonstantis",
   "name": "Xenofon Karakonstantis",
   "ascii": "Xenofon",
@@ -11,8 +11,8 @@
   "email": "xenoka@dtu.dk",
   "ps1_hostname": "insanelygoodwebsite",
   "ps1_username": "you",
-  "repo": "https://github.com/Cveinnt/LiveTerm",
-  "resume_url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Resume.pdf",
+  "repo": "https://github.com/xefonon/xenofon_karakonstantis",
+  "resume_url": "https://github.com/xefonon/xenofon_karakonstantis/blob/main/XK_CV.pdf",
   "colors": {
     "light": {
       "background": "#1c1c1c",
