@@ -10,13 +10,13 @@
       "red": "#CA2124"
     },
     "dark": {
-      "background": "#2E3440",
-      "foreground": "#E5E9F0",
-      "yellow": "#5E81AC",
-      "green": "#A3BE8C",
-      "gray": "#88C0D0",
-      "blue": "#EBCB8B",
-      "red": "#BF616A"
+      "background": "#191724",
+      "foreground": "#e0def4",
+      "yellow": "#f6c177",
+      "green": "#31748f",
+      "gray": "#6e6a86",
+      "blue": "#9ccfd8",
+      "red": "#eb6f92"
     }
   },
   "gruvbox": {
@@ -158,5 +158,26 @@
       "blue": "#06B6EF",
       "red": "#EF6155"
     }
+  },
+  "RosePine": {
+    "light": {
+      "background": "#F5E0DC",
+      "foreground": "#232136",
+      "yellow": "#F2CDCD",
+      "green": "#A6D189",
+      "gray": "#C6A0F6",
+      "blue": "#89B4FA",
+      "red": "#F38BA8"
+    },
+    "dark": {
+      "background": "#191724",
+      "foreground": "#e0def4",
+      "yellow": "#f6c177",
+      "green": "#31748f",
+      "gray": "#6e6a86",
+      "blue": "#9ccfd8",
+      "red": "#eb6f92"
+    }
   }
+  
 }
