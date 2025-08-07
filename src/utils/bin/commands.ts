@@ -31,9 +31,11 @@ export const repo = async (args: string[]): Promise<string> => {
 // About
 export const about = async (args: string[]): Promise<string> => {
   return `Hi, I am ${config.name}. 
-Welcome to my website!
-More about me:
+Senior DSP & ML Engineer at Oticon (Demant).
+PhD in Data-Driven Acoustic Holography from DTU.
+Type 'summary' for a quick overview.
 'summary' - short summary.
+'publications' - my publications.
 'resume' - my latest resume.
 'readme' - my github readme.`;
 };
@@ -64,6 +66,22 @@ export const scholar = async (args: string[]): Promise<string> => {
   window.open(`https://scholar.google.com/citations?hl=en&user=nxon5qUAAAAJ`);
 
   return 'Opening google scholar...';
+};
+
+// Publications
+export const publications = async (args: string[]): Promise<string> => {
+  return [
+    "1. Karakonstantis X., & Fernandez-Grande E. (2021, August). Sound field reconstruction in rooms with deep generative models. In INTER-NOISE and NOISE-CON Congress and Conference Proceedings (Vol. 263, No. 5, pp. 1527–1538).",
+    "2. Fernandez-Grande E., Caviedes-Nozal C., Hahmann M., Karakonstantis X., & Verburg S. (2021). Reconstruction of room impulse responses over extended domains for navigable sound field reproduction. In International Conference on Immersive and 3D Audio.",
+    "3. Fernandez-Grande E., Karakonstantis X., Caviedes-Nozal D. & Gerstoft P. (2023, February). Generative models for sound field reconstruction. The Journal of the Acoustical Society of America.",
+    "4. Karakonstantis X. & Fernandez-Grande E. (2022, August). Localising acoustic sources with a spherical graph neural network. 24th International Congress on Acoustics.",
+    "5. Karakonstantis X., Fernandez-Grande E. (2023, August). Generative adversarial networks with physical sound field priors. The Journal of the Acoustical Society of America.",
+    "6. Karakonstantis X., Fernandez-Grande E. (2023, September). Room impulse response reconstruction using physics-constrained neural networks. Forum Acusticum 2023.",
+    "7. Karakonstantis X., Caviedes-Nozal D., Richard A. & Fernandez-Grande E. (2024, January). Room impulse response reconstruction with physics-informed deep learning. The Journal of the Acoustical Society of America.",
+    "8. Olivieri M., Karakonstantis X., Pezzoli M., Antonacci F., Sarti A., Fernandez-Grande E. (2024) Physics-Informed Neural Network for the Volumetric Sound field Reconstruction of Speech Signals. EURASIP Journal on Audio, Speech, and Music Processing.",
+    "9. Figueroa-Duran A., Karakonstantis X., Fernandez-Grande E. (2024, June). Bayesian Framework for Room Impulse Response Reconstruction using Explicit Frequency Regularisation. AES Europe 2024.",
+    "10. Karakonstantis X., Fernandez-Grande E., Gerstoft P. (pre-print). Efficient Sound Field Reconstruction with Conditional Invertible Neural Networks."
+  ].join("\n");
 };
 
 // Search
@@ -151,15 +169,11 @@ export const banner = (args?: string[]): string => {
                                            ││││ │├┬┘│   ││                  
                                            └┴┘└─┘┴└─┴─┘─┴┘                                    
 
-My name is ${name.bold()}! I'm a PhD student at the Technical University of Denmark working
-on the development of data driven algorithms for acoustic holography and sound field reconstruction
-of reverberant environments. I also love playing music and programming. 
+My name is ${name.bold()}! I’m currently a Senior DSP Engineer at Oticon (Demant), where I research 
+on-device deep-learning pipelines for speech enhancement. Previously, 
+I completed a PhD in Data-Driven Acoustic Holography at DTU and a postdoc at ITU Copenhagen, 
+focusing on neural models for reconstructing and reproducing reverberant sound fields. 
+Outside work, I play guitar, compose music, and build DIY audio gadgets.
 
-This is my personal website. You can find my CV, my publications, my projects and my contact details
-if you type 'summary'.
-
-Type 'summary' to display summary.
-Type 'help' to see the list of available commands.
-Type 'repo' or click <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.repo}" target="_blank">here</a></u> for the Github repository.
-`;
+This is my personal site—type ‘summary’ for a quick overview, or ‘publications’ to see my papers.`;
 };
