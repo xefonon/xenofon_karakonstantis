@@ -169,10 +169,14 @@ export const banner = (args?: string[]): string => {
                                            ││││ │├┬┘│   ││                  
                                            └┴┘└─┘┴└─┴─┘─┴┘                                    
 
-My name is ${name.bold()}! I’m currently a Senior DSP Engineer at Oticon (Demant), where I research 
-on-device deep-learning pipelines for speech enhancement. Previously, 
-I completed a PhD in Data-Driven Acoustic Holography at DTU and a postdoc at ITU Copenhagen, 
+My name is ${name.bold()}! 
+
+I’m currently a Senior DSP Engineer at Oticon (Demant), where I research 
+on-device deep-learning pipelines for speech enhancement. 
+
+Previously, I completed a PhD in <a href="https://orbit.dtu.dk/en/publications/data-driven-methods-for-large-scale-sound-field-acquisition-and-a" target="_blank">Data-Driven Acoustic Holography</a> at DTU and a postdoc at ITU Copenhagen, 
 focusing on neural models for reconstructing and reproducing reverberant sound fields. 
+
 Outside work, I play guitar, compose music, and build DIY audio gadgets.
 
 This is my personal site—type ‘summary’ for a quick overview, or ‘publications’ to see my papers.`;
